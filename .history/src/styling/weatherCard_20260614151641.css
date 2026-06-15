@@ -1,0 +1,10 @@
+.card{
+    width: 80%;
+    height: 250px;
+    max-width: 350px;
+    background-color: rgb(7, 84, 171);
+    border-radius: 15px;
+}
+.LanguageIcon{
+    font-size: 30px;
+}

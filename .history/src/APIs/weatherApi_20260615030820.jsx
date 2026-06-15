@@ -1,0 +1,21 @@
+import axios from "axios"
+export default function GetWeather(city){
+    const coords= {lon:city.lon,lat:city.lat}
+      axios.get("https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&daily=temperature_2m_max,temperature_2m_min&current=temperature_2m,weather_code", {
+      })
+      .then((response) => {
+        console.log(response);
+        data={temp:response.data.current.temperature_2m,
+          max:response.data.daily.temperature_2m_max[0],
+          min:response.data.daily.temperature_2m_min[0],
+          weatherCode:response.data.current.weather_code
+        }
+        console.log(data)
+        setData(data);
+      })
+      .catch((error) => {
+        console.error(error);
+      })
+
+
+}

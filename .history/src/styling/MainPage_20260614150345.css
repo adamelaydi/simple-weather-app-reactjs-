@@ -1,0 +1,11 @@
+*{
+    font-family: cairo;
+    margin: 0;
+    padding: 0;
+    
+}
+.mainPage{
+    background-color: rgb(24, 117, 216);
+    width: 100%;
+    height: 100vh;
+}

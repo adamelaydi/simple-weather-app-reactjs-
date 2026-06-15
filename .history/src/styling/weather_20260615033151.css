@@ -1,0 +1,38 @@
+.weather{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.weather .icon{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weather .icon .weatherIcon{
+    font-size: 80px;
+.weather .weatherInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.weather .weatherInfo .degree{
+    display: flex;
+    align-items: center;
+}
+.weather .weatherInfo .degree .degreeValue{
+    font-size: 50px;
+    margin-right: 10px;
+}
+.weather .weatherInfo .degree .degreeIcon{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.weather .weatherInfo .describtion{
+    font-size: 12px;
+    font-weight: 700;
+}
+.weather .weatherInfo .minMax{
+    margin-top: 30px;
+    font-size: 14px;
+}

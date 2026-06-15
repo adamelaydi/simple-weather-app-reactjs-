@@ -1,0 +1,15 @@
+*{
+    font-family: cairo;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainPage{
+    background-color: rgb(24, 117, 216);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    f
+}

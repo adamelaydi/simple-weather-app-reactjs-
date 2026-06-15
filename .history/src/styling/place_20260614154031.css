@@ -1,0 +1,7 @@
+*{
+    color: white;
+    text-transform: capitalize;
+}
+.info{
+    display: flex;
+}

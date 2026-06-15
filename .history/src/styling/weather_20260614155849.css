@@ -1,0 +1,23 @@
+.weather{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.weather .icon{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weather .icon .weatherIcon{
+    width:120px;
+    height: 120px;
+}
+.weather .weatherInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.weather .weatherInfo .degree{
+    display: flex;
+}

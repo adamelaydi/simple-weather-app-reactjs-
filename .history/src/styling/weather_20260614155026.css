@@ -1,0 +1,11 @@
+.weather{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+.weather .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

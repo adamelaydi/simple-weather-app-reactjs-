@@ -1,0 +1,8 @@
+*{
+    color: white;
+    text-transform: capitalize;
+}
+.info{
+    display: flex;
+    align-items: center;
+}
