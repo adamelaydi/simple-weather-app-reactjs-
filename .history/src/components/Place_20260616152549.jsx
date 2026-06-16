@@ -1,12 +1,11 @@
 import "../styling/place.css"
-import moment from "moment";
+import moment 
 export default function Place(){
     return(
         <>
             <div className="info">
                 <h1>egypt</h1>
-                <div className="date">{
-                moment().format('LLLL')}</div>
+                <div className="date">2 jun 2026</div>
             </div>
             <hr/>
         </>

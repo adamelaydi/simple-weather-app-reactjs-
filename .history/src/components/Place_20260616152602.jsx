@@ -5,8 +5,7 @@ export default function Place(){
         <>
             <div className="info">
                 <h1>egypt</h1>
-                <div className="date">{
-                moment().format('LLLL')}</div>
+                <div className="date">2 jun 2026</div>
             </div>
             <hr/>
         </>
