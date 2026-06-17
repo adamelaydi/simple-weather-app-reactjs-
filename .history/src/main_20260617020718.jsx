@@ -1,0 +1,14 @@
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import App from './App.jsx'
+// states
+import { useState } from "react"
+// contexts
+import { LanguageContext } from "../contexts/LanguageContext";
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+      <App />
+    </LanguageContext.Provider>
+  </StrictMode>,
+)

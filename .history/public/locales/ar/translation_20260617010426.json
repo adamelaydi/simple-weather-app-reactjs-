@@ -1,0 +1,15 @@
+{
+        
+        "clearSky": "Clear sky",
+        "mainlyClear": "Mainly clear",
+        "partlyCloudy": "Partly cloudy",
+        "overcast": "Overcast",
+        "fog": "Fog",
+        "drizzle": "Drizzle",
+        "rain": "Rain",
+        "snow": "Snow",
+        "thunderstorm": "Thunderstorm",
+        "unknown": "Unknown"
+    
+
+}
