@@ -1,0 +1,19 @@
+*{
+    color: white;
+    text-transform: capitalize;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info h1{
+    font-size: 25px;
+    font-weight: 500;
+}
+.info .date{
+    font-size: 10px;
+}
+@media (max) {
+    
+}

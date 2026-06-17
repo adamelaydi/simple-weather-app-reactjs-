@@ -1,0 +1,16 @@
+.card{
+    width: 80%;
+    height: 250px;
+    max-width: 350px;
+    background-color: rgb(7, 84, 171);
+    border-radius: 15px;
+    padding: 10px;
+}
+.lang{
+    color: azure;
+}
+@media (max-width:400px) {
+    .card{
+        
+    }
+}
